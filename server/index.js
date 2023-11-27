@@ -1,4 +1,5 @@
 import express, { json } from "express";
+import path from "path";
 import dotev from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
@@ -14,10 +15,18 @@ app.use(express.json());
 app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 app.use(cookieParser());
 
+const __dirname = path.resolve();
+
 // routes
 app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
 app.use("/api/listing", listingRouter);
+
+app.use(express.static(path.join(__dirname, "/client/dist")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
+});
 
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
