@@ -13,7 +13,7 @@ import Listing from "./pages/Listing/Listing";
 import SearchListings from "./pages/searchListings/SearchListings";
 
 function App() {
-  axios.defaults.baseURL = "http://localhost:5000";
+  axios.defaults.baseURL = "https://uninterested-tick-sheath-dress.cyclic.app";
   axios.defaults.withCredentials = true;
 
   return (
