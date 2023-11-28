@@ -10,6 +10,6 @@ const router = express.Router();
 
 router.patch("/update-user/:id", veryfyUser, updateUser);
 router.delete("/delete-user/:id", veryfyUser, deleteUser);
-router.get("/get-user/:id", veryfyUser, getUser);
+router.get("/get-user/:id", getUser);
 
 export default router;
