@@ -2,6 +2,29 @@
 
 Welcome to our Real Estate Application! This application is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to register and log in, create properties for selling, and contact property owners for potential purchases.
 
+## Images
+
+Here are a few screenshots of the Real Estate Application:
+
+1. **Homepage:**
+   ![Homepage](![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/583b8a40-7957-4608-9a72-a7ef18497793)
+)
+
+2. **Property Listings:**
+   ![Property Listings](![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/247400fa-0e63-4c20-9971-22c67005c08b)
+)
+
+3. **Property Details:**
+   ![Property Details](![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/4602fb82-43c1-4b29-a309-428ea8e1b792)
+)
+
+4. **Search and Filter:**
+   ![Search and Filter](![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/9052152a-9559-42a3-8a59-f9341e9b3f72)
+)
+
+5. **Contact Property Owner:**
+   ![Contact Property Owner]()
+
 ## Table of Contents
 - [Description](#description)
 - [Features](#features)
@@ -71,13 +94,13 @@ To run the Real Estate Application locally, follow these steps:
 ## Technologies Used
 - Frontend:
   - React.js
-  - Netlify (for deployment) [http](https://app.cyclic.sh/)
+  - Netlify (for deployment) [Cyclic](https://app.cyclic.sh/)
 
 - Backend:
   - Node.js
   - Express.js
   - MongoDB
-  - Cyslic (for deployment) [http](https://www.netlify.com/)
+  - Cyslic (for deployment) [Netlify](https://www.netlify.com/)
  
 ## License
 Feel free to further customize it based on your specific implementation or add any other features that might be relevant to your real estate application.
