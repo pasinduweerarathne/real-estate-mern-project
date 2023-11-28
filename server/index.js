@@ -12,7 +12,13 @@ import listingRouter from "./routes/listing.routes.js";
 dotev.config();
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:5173", credentials: true }));
+app.use(
+  cors({
+    origin:
+      "https://65657bb598ee2729f6812feb--relaxed-puffpuff-3c52d3.netlify.app",
+    credentials: true,
+  })
+);
 app.use(cookieParser());
 
 const __dirname = path.resolve();

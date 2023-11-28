@@ -14,6 +14,7 @@ import SearchListings from "./pages/searchListings/SearchListings";
 
 function App() {
   axios.defaults.baseURL = "https://uninterested-tick-sheath-dress.cyclic.app";
+  // axios.defaults.baseURL = "http://localhost:5000";
   axios.defaults.withCredentials = true;
 
   return (
