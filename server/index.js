@@ -14,8 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin:
-      "https://65657bb598ee2729f6812feb--relaxed-puffpuff-3c52d3.netlify.app",
+    origin: "https://real-estate-mern-app.netlify.app/",
     credentials: true,
   })
 );
