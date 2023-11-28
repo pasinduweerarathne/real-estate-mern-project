@@ -6,7 +6,8 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://uninterested-tick-sheath-dress.cyclic.app",
+        target: "https://real-estate-app.cyclic.app",
+        // target: "http://localhost:5000",
         secure: true,
       },
     },
