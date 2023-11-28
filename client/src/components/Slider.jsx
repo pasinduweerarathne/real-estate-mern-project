@@ -19,7 +19,7 @@ const Slider = () => {
       const storageRef = getStorage(app);
       const listRef = ref(
         storageRef,
-        `gs://${import.meta.env.VITE_FIREBASE_STORAGE_BUCKET}`
+        `gs://mern-real-estate-28553.appspot.com`
       );
 
       list(listRef, { maxResults: 10 })
