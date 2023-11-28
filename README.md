@@ -5,25 +5,26 @@ Welcome to our Real Estate Application! This application is built using the MERN
 ## Images
 
 Here are a few screenshots of the Real Estate Application:
-
-1. **Homepage:**
-   ![Homepage](![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/583b8a40-7957-4608-9a72-a7ef18497793)
-)
-
-2. **Property Listings:**
-   ![Property Listings](![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/247400fa-0e63-4c20-9971-22c67005c08b)
-)
-
-3. **Property Details:**
-   ![Property Details](![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/4602fb82-43c1-4b29-a309-428ea8e1b792)
-)
-
-4. **Search and Filter:**
-   ![Search and Filter](![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/9052152a-9559-42a3-8a59-f9341e9b3f72)
-)
-
-5. **Contact Property Owner:**
-   ![Contact Property Owner]()
+<details>
+   <summary>Homepage</summary>
+   ![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/583b8a40-7957-4608-9a72-a7ef18497793)
+</details>
+<details>
+   <summary>Property Listings</summary>
+   ![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/247400fa-0e63-4c20-9971-22c67005c08b)
+</details>
+<details>
+   <summary>Property Details</summary>
+   ![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/4602fb82-43c1-4b29-a309-428ea8e1b792)
+</details>
+<details>
+   <summary>Search and Filter</summary>
+   ![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/9052152a-9559-42a3-8a59-f9341e9b3f72)
+</details>
+<details>
+   <summary>Contact Property Owner</summary>
+   ![image](https://github.com/pasinduweerarathne/real-estate-mern-project/assets/95599859/bbc1e55d-ba3a-411d-bbb8-60cb6aa7fab5)
+</details>
 
 ## Table of Contents
 - [Description](#description)
